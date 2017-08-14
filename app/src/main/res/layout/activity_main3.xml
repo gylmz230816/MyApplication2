@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.lenovo.day02.Main3Activity">
+
+    <ListView
+        android:id="@+id/mListview"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        ></ListView>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mframelayout"
+        ></FrameLayout>
+</LinearLayout>
